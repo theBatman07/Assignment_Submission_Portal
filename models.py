@@ -3,6 +3,8 @@ from typing import Optional
 from datetime import datetime
 from enum import Enum
 
+# Models for User and Assignmets
+
 class UserModel(BaseModel):
     username: str
     password: str
