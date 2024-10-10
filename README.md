@@ -22,13 +22,6 @@ This is a backend system for an assignment submission portal developed using Fas
 - **Authentication:** Bearer Token Authentication using OAuth2PasswordBearer
 - **Asynchronous MongoDB Driver:** Motor
 
-## Prerequisites
-
-Before running the project, ensure you have the following installed:
-
-- **Python 3.8+**
-- **MongoDB** (Ensure MongoDB is running locally or use a remote MongoDB instance)
-
 ## Installation
 
 1. **Clone the repository**:
