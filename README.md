@@ -48,7 +48,7 @@ This is a backend system for an assignment submission portal developed using Fas
 4. **Make a .env file** and add the MONGODB_URL
   
     ```bash
-        MONGODB_URL
+        MONGODB_URL = "your_mongo_db_url"
     ```
   
 
@@ -76,8 +76,7 @@ FastAPI automatically generates interactive API documentation that you can acces
   ```json
   { 
     "username": "john_doe", 
-    "password": "password123",
-    "role": "user" 
+    "password": "password123"
   }
   ```
   
@@ -123,7 +122,9 @@ FastAPI automatically generates interactive API documentation that you can acces
       "role": "admin" 
   }
   ```
-  
+
+  - The admin has the ability to add user too. In the role define - user or admin ("role": "admin/user")
+
 2. **Login an admin**: `POST /admin/login`
   
   **Body**:
